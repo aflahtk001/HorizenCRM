@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+
+export const runtime = 'edge';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
